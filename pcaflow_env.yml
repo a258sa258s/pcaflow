@@ -1,0 +1,42 @@
+name: pcaflow
+channels:
+- intel
+- defaults
+dependencies:
+- libgfortran=3.0.0=1
+- openblas=0.2.19=0
+- intelpython=2018.0.0=3
+- openssl=1.0.2l=intel_0
+- pip=9.0.1=py27_intel_0
+- python=2.7.14=intel_1
+- setuptools=27.2.0=py27_intel_0
+- sqlite=3.20.1=intel_0
+- tcl=8.6.4=intel_17
+- tk=8.6.4=intel_26
+- wheel=0.29.0=py27_intel_5
+- zlib=1.2.11=intel_3
+- pip:
+  - cycler==0.10.0
+  - cython==0.28
+  - decorator==4.0.11
+  - easydict==1.7
+  - functools32==3.2.3.post2
+  - matplotlib==2.0.2
+  - networkx==1.11
+  - numpy==1.14.2
+  - olefile==0.44
+  - opencv-python==3.4.0.12
+  - pillow==4.1.1
+  - pyparsing==2.2.0
+  - python-dateutil==2.6.0
+  - pytz==2017.2
+  - pywavelets==0.5.2
+  - pyyaml==3.12
+  - scikit-image==0.13.0
+  - scikit-learn==0.19.1
+  - scipy==1.0.0
+  - six==1.10.0
+  - sklearn==0.0
+  - subprocess32==3.2.7
+prefix: /home/coredigit/anaconda3/envs/pcaflow
+
